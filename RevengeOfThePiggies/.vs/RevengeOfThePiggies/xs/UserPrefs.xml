@@ -1,23 +1,26 @@
 ﻿<Properties StartupConfiguration="{AF77B139-F0DE-2939-AD86-57A43807A14D}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CannonControl.cs">
     <Files>
-      <File FileName="Assets/CannonControl.cs" Line="12" Column="7" />
+      <File FileName="Assets/CannonControl.cs" Line="45" Column="3" />
+      <File FileName="../../../../Final/Assets/Scripts/CameraSystem.cs" />
+      <File FileName="Assets/CameraFollow.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RevengeOfThePiggies" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="CannonControl.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="RevengeOfThePiggies" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="RevengeOfThePiggies" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0c22da29-9ff4-4eac-856d-58dbe6fea42b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3241d302-bccc-4276-8a6c-b022c0cc18c6" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
