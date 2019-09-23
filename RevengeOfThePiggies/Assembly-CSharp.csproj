@@ -115,6 +115,10 @@
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineMixer.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineShot.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
+    <Compile Include="Assets\DisplayScore.cs" />
+    <Compile Include="Assets\ObserverPattern.cs" />
+    <Compile Include="Assets\PiggyController.cs" />
+    <Compile Include="Assets\ScoreManager.cs" />
     <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/laraalley/Documents/GitHub/AdvGameDev_2019/RevengeOfThePiggies/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
