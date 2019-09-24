@@ -119,6 +119,7 @@
     <Compile Include="Assets\DisplayScore.cs" />
     <Compile Include="Assets\ObserverPattern.cs" />
     <Compile Include="Assets\PiggyController.cs" />
+    <Compile Include="Assets\Player_Health.cs" />
     <Compile Include="Assets\ScoreManager.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
