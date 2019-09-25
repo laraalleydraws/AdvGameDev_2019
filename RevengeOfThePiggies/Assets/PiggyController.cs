@@ -8,7 +8,8 @@ public class PiggyController : MonoBehaviour
     Quaternion startRotation;
     Transform cannon;
     public ScoreManager scoreManager;
-    const int WAIT_TIME = 3;
+    const int WAIT_TIME = 4;
+    public AudioSource tickSource;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,7 @@ public class PiggyController : MonoBehaviour
         cannon = transform.parent;
         startPosition = transform.localPosition;
         startRotation = transform.localRotation;
+        tickSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -28,6 +30,8 @@ public class PiggyController : MonoBehaviour
     {
         scoreManager.updateScore(1);
         Invoke("ResetPiggy", 15f);
+        tickSource.Play();
+      
     }
 
     void ResetPiggy()

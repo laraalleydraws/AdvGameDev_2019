@@ -6,21 +6,13 @@ using UnityEngine.SceneManagement;
 public class Player_Health : MonoBehaviour
 {
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter(Collider ChangeScene) 
     {
-        if (gameObject.transform.position.y < -10)
+        if (ChangeScene.gameObject.CompareTag("PiggyController"))
         {
-            Die();
-
-
+            SceneManager.LoadScene ("endscene"); 
         }
     }
 
-    void Die()
-    {
-        SceneManager.LoadScene("endscene");
-
-    }
 }
 

@@ -3,21 +3,16 @@
     <Files>
       <File FileName="Assets/CameraFollow.cs" Line="1" Column="1" />
       <File FileName="Assets/CannonControl.cs" Line="52" Column="2" />
-      <File FileName="../../../../Final/Assets/Scripts/CameraSystem.cs" />
-      <File FileName="Assets/ObserverPattern.cs" />
-      <File FileName="Assets/PiggyController.cs" Line="26" Column="1" />
+      <File FileName="../../../../Final/Assets/Scripts/CameraSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets/ObserverPattern.cs" Line="1" Column="1" />
+      <File FileName="Assets/PiggyController.cs" Line="21" Column="6" />
       <File FileName="Assets/ScoreManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Player_Health.cs" Line="17" Column="2" />
       <File FileName="Assets/DisplayScore.cs" Line="1" Column="1" />
       <File FileName="Assets/Button.cs" Line="12" Column="32" />
-      <File FileName="Assets/Player_Health.cs" Line="19" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="RevengeOfThePiggies" expanded="True" selected="True" />
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="RevengeOfThePiggies" expanded="True" selected="True" />
         </State>
@@ -26,9 +21,11 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3241d302-bccc-4276-8a6c-b022c0cc18c6" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="672565d3-28bc-4710-b072-9edaaf0deade" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/laraalley/Documents/GitHub/AdvGameDev_2019/RevengeOfThePiggies/Assets/Player_Health.cs" relfile="Assets/Player_Health.cs" line="10" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
