@@ -13,6 +13,10 @@ public class TerrainGenerator : MonoBehaviour
     public int octaves = 8;
     Texture2D image;
     Terrain terrain;
+
+    float offsetH = 0;
+    float offsetV = 0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +29,9 @@ public class TerrainGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        offsetH += (Input.GetAxis("Horizontal") / 2);
+        offsetV += (Input.GetAxis("Vertical") / 2);
+
         float[,] heightmap = terrain.terrainData.GetHeights(0, 0, terrain.terrainData.heightmapWidth, terrain.terrainData.heightmapHeight);
 
         for (int i = 0; i < terrain.terrainData.heightmapHeight; ++i)
@@ -44,8 +50,8 @@ public class TerrainGenerator : MonoBehaviour
                 float amplitude = 1;
                 for (int z = 0; z < octaves; ++z)
                 {
-                    height = height + Mathf.PerlinNoise(x * current_frequency, y * current_frequency) * amplitude;
-                    amplitude /= 4;
+                    height = height + Mathf.PerlinNoise(x * current_frequency + offsetH, y * current_frequency + offsetV) * amplitude;
+                    amplitude /= 2;
                     current_frequency *= 4;
                 }
                 
