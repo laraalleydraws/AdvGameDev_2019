@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{52852A6B-7295-74AE-763F-F1F40A55C609}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PerlinNoise.cs">
+    <Files>
+      <File FileName="Assets/TerrainGenerator.cs" Line="48" Column="35" />
+      <File FileName="Assets/PerlinNoise.cs" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PerlinNoise" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="PerlinNoise.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="458477e4-96b7-46aa-9aef-16ff4766ef3c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
