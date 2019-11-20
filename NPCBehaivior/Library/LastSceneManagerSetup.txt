@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Poly/Imagine Geometric Pack/Demo_Day.unity
+- path: Assets/Scenes/MainScene.unity
   isLoaded: 1
   isActive: 1
