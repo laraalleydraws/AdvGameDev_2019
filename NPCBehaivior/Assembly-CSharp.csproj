@@ -60,6 +60,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\NewScripts\Agent.cs" />
+    <Compile Include="Assets\NewScripts\Enemy.cs" />
+    <Compile Include="Assets\NewScripts\MovingObstacle.cs" />
+    <Compile Include="Assets\NewScripts\Waypoint.cs" />
     <Compile Include="Assets\Scripts\FollowBehavior.cs" />
     <Compile Include="Assets\Scripts\IdleBehavior.cs" />
     <Compile Include="Assets\Scripts\PatrolBehavior.cs" />

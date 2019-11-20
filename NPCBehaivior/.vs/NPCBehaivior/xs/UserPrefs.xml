@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{31197ECA-2D6A-BDD2-AF00-4CE1635C5525}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PatrolSpots.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/NewScripts/Waypoint.cs">
     <Files>
-      <File FileName="Assets/Scripts/PatrolBehavior.cs" Line="43" Column="4" />
-      <File FileName="Assets/Scripts/IdleBehavior.cs" Line="24" Column="1" />
-      <File FileName="Assets/Scripts/FollowBehavior.cs" Line="25" Column="9" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="33" Column="77" />
-      <File FileName="Assets/Scripts/PatrolSpots.cs" Line="1" Column="1" />
+      <File FileName="Assets/NewScripts/Agent.cs" Line="26" Column="2" />
+      <File FileName="Assets/NewScripts/MovingObstacle.cs" Line="47" Column="2" />
+      <File FileName="Assets/NewScripts/Enemy.cs" Line="23" Column="10" />
+      <File FileName="Assets/NewScripts/Waypoint.cs" Line="9" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
